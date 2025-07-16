@@ -29,3 +29,16 @@ The Random Forest model outperformed the Linear Regression model, achieving a lo
 
 # 📷 Visualization
 The scatter plot below shows the actual vs. predicted prices:
+
+## 🖥️ Shiny App (Interactive Dashboard)
+
+This project includes a Shiny app that allows users to interactively predict house prices by adjusting features such as:
+- **Crime rate (CRIM)**
+- **Average number of rooms (RM)**
+- **Lower status percentage (LSTAT)**
+
+### 💡 To Run the App Locally:
+
+```r
+library(shiny)
+runApp("app.R")
